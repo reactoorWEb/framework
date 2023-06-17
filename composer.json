@@ -1,7 +1,8 @@
 {
   "name": "reactoor/framework",
-  "description": "reactoor the web framework",
-  "minimum-stability": "stable",
+  "description": "Reactoor The Web Framework",
+  "keywords": ["framework","reactoor"],
+  "homepage": "https://reactoor.ir",
   "license": "MIT",
   "support": {
     "issues": "https://github.com/reactoor/framework/issues",
@@ -10,7 +11,8 @@
   "authors": [
     {
       "name": "Arshiamohammadei",
-      "email": "arshia8587@gmail.com"
+      "email": "arshia8587@gmail.com",
+      "role": "Developer"
     }
   ],
   "require": {
