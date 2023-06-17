@@ -5,6 +5,7 @@
   "homepage": "https://reactoor.ir",
   "license": "MIT",
   "type": "library",
+  "version" : "1.0",
   "support": {
     "issues": "https://github.com/reactoor/framework/issues",
     "source": "https://github.com/reactoor/framework"
