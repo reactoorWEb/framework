@@ -6,7 +6,6 @@
   "license": "MIT",
   "version": "1.0",
   "type": "library",
-  "minimum-stability": "dev"
   "support": {
     "issues": "https://github.com/reactoor/framework/issues",
     "source": "https://github.com/reactoor/framework"
@@ -91,5 +90,6 @@
     "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^6.2).",
     "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^2.0)."
   },
+  "minimum-stability": "dev",
   "prefer-stable": true
 }
