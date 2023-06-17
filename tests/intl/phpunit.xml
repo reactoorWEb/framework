@@ -1,0 +1,16 @@
+<phpunit bootstrap="./vendor/autoload.php">
+    <testsuites>
+        <testsuite name="NumberTest">
+            <file>./tests/NumberTest.php</file>
+        </testsuite>
+        <testsuite name="DateTimeTest">
+            <file>./tests/DateTimeTest.php</file>
+        </testsuite>
+        <testsuite name="PluralTest">
+            <file>./tests/PluralTest.php</file>
+        </testsuite>
+        <testsuite name="TranslatorTest">
+            <file>./tests/TranslatorTest.php</file>
+        </testsuite>
+    </testsuites>
+</phpunit>

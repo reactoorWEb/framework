@@ -1,0 +1,36 @@
+{
+    "name": "illustrate/orm",
+    "description": "Powerful ORM library",
+    "keywords": ["orm", "data-mapper"],
+    "homepage": "https://reactoor.ir",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Arshiamohammadei",
+            "email": "arshia8587@gmail.com"
+        }
+    ],
+    "require": {
+        "opis/database": "^4.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Opis\\ORM\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Opis\\ORM\\Test\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

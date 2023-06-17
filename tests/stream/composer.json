@@ -1,0 +1,39 @@
+{
+  "name": "illustrate/stream",
+  "description": "Stream abstraction",
+  "keywords": [
+    "illustrate",
+    "stream",
+    "resource"
+  ],
+  "homepage": "https://reactoor.ir",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Arshiamohammadei",
+      "email": "arshia8587@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "illustrate\\Stream\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "illustrate\\Stream\\Test\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}

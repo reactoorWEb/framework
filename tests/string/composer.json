@@ -1,0 +1,36 @@
+{
+    "name": "illustrate/string",
+    "description": "Multibyte strings as objects",
+    "keywords": ["illustrate", "string", "utf-8", "multi-byte", "string manipulation"],
+    "homepage": "https://opis.io/string",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Arshiamohammadei",
+            "email": "arshia8587@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "ext-iconv": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "illustrate\\String\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "illustrate\\String\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    }
+}

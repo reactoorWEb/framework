@@ -1,0 +1,5 @@
+{
+    "$id": "file:///my-name.json#",
+    "type": "string",
+    "pattern": "^[A-Z]"
+}

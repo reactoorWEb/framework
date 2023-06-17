@@ -1,0 +1,46 @@
+{
+  "name": "opis/intl",
+  "description": "Internationalization library",
+  "keywords": [
+    "intl",
+    "i18n",
+    "language",
+    "internationalization"
+  ],
+  "homepage": "https://www.opis.io/intl",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Sorin Sarca",
+      "email": "sarca_sorin@hotmail.com"
+    },
+    {
+      "name": "Marius Sarca",
+      "email": "marius.sarca@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5 || ^7.0"
+  },
+  "suggest": {
+    "ext-intl": "For multiple locale support"
+  },
+  "autoload": {
+    "psr-4": {
+      "Opis\\Intl\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Opis\\Intl\\Test\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "name": "illustrate/config",
+    "description": "A configuration management library with support for multiple backend storages",
+    "keywords": ["illustrate", "config"],
+    "homepage": "http://reactoor.ir",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Arshiamohammadei",
+            "email": "arshia8587@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "illustrate\\Config\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "illustrate\\Config\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}

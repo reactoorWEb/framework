@@ -1,0 +1,35 @@
+{
+    "name": "illustrate/session",
+    "description": "illustrate Session is a session manager library with support for multiple backend stores",
+    "keywords": ["illustrate", "session", "session store", "session management"],
+    "homepage": "https://reactoor.ir",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Arshiamohammadei",
+            "email": "arshia8587@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5 || ^7.0",
+        "illustrate/database": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "illustrate\\Session\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "illustrate\\Session\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0.x-dev"
+        }
+    }
+}

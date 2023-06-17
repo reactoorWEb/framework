@@ -1,0 +1,46 @@
+{
+    "name": "opis/filesystem",
+    "description": "Filesystem abstraction",
+    "keywords": ["filesystem", "storage"],
+    "homepage": "https://opis.io",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Marius Sarca",
+            "email": "marius.sarca@gmail.com"
+        },
+        {
+            "name": "Sorin Sarca",
+            "email": "sarca_sorin@hotmail.com"
+        }
+    ],
+    "require": {
+        "opis/stream": "^1.1",
+        "ext-json": "*",
+        "ext-fileinfo": "*",
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Opis\\FileSystem\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Opis\\FileSystem\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}

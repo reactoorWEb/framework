@@ -1,0 +1,40 @@
+{
+    "name": "illustrate/uri",
+    "description": "Build, parse and validate URIs and URI-templates",
+    "keywords": ["uri", "uri template", "url", "parse url", "uri components", "validate uri", "punycode"],
+    "homepage": "https://reactoor.or",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Arshiamohammadei",
+            "email": "arshia8587@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "opis/string": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "illustrate\\Uri\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "illustrate\\Uri\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}

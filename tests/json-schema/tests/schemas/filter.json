@@ -1,0 +1,66 @@
+{
+    "$id": "file:///filter.json#",
+    "definitions": {
+        "simple": {
+            "type": "string",
+            "$filters": {
+                "$func": "oddLen"
+            }
+        },
+        "vars": {
+            "type": "integer",
+            "$filters": {
+                "$func": "modulo",
+                "$vars": {
+                    "divisor": 3,
+                    "reminder": 2
+                }
+            }
+        },
+        "syntax-sugar": {
+            "type": "integer",
+            "$filters": {
+                "$func": "modulo",
+
+                "divisor": 3,
+                "reminder": 2
+            }
+        },
+        "multi": {
+            "$filters": [
+                {
+                    "$func": "modulo",
+                    "$vars": {
+                        "divisor": 2,
+                        "reminder": 1
+                    }
+                },
+                {
+                    "$func": "modulo",
+                    "$vars": {
+                        "divisor": 3,
+                        "reminder": 2
+                    }
+                }
+            ]
+        },
+        "str": {
+            "type": "string",
+            "$filters": "oddLen"
+        },
+        "globals": {
+            "$filters": [
+                "modulo",
+                {
+                    "$func": "modulo",
+                    "$vars": {
+                        "divisor": 3
+                    }
+                }
+            ]
+        },
+        "invalid": {
+            "$filters": "invalid-filter"
+        }
+    }
+}

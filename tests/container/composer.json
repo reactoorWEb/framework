@@ -1,0 +1,36 @@
+{
+    "name": "opis/container",
+    "description": "Serializable dependency injection container",
+    "keywords": ["opis", "dependency", "injection", "container", "IoC", "serializable", "php7"],
+    "homepage": "https://opis.io/container",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Marius Sarca",
+            "email": "marius.sarca@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "opis/closure": "^3.0",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Opis\\Container\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Opis\\Container\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.0.x-dev"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<phpunit bootstrap="./vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Stream">
+            <directory suffix="Test.php">./tests</directory>
+        </testsuite>
+        <testsuite name="StreamWrapper">
+            <directory suffix="Test.php">./tests/Wrapper</directory>
+        </testsuite>
+        <testsuite name="Scanner">
+            <directory suffix="Test.php">./tests/Scanner</directory>
+        </testsuite>
+        <testsuite name="Printer">
+            <directory suffix="Test.php">./tests/Printer</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

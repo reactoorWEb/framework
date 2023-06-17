@@ -1,0 +1,45 @@
+{
+    "name": "illustrate/json-schema",
+    "description": "Json Schema Validator for PHP",
+    "keywords": [
+        "json",
+        "schema",
+        "json-schema",
+        "validation",
+        "validator"
+    ],
+    "homepage": "https://reactoor.ir",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Arshiamohammadei",
+            "email": "arshia8587@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "illustrate/string": "^2.0",
+        "illustrate/uri": "^1.0"
+    },
+    "require-dev": {
+        "ext-bcmath": "*",
+        "ext-intl": "*",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "illustrate\\JsonSchema\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "illustrate\\JsonSchema\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    }
+}

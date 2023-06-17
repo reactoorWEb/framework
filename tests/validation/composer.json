@@ -1,0 +1,35 @@
+{
+    "name": "illustrate/validation",
+    "description": "Validation library",
+    "keywords": ["validation", "validator", "form validation"],
+    "homepage": "http://reactoor.ir",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Arshiamohammadei",
+            "email": "arshia8587@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illustrate/string": "^1.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "illustrate\\Validation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "illustrate\\Validation\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
