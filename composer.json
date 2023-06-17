@@ -37,7 +37,7 @@
     "symfony/dotenv": "^6.3"
   },
   "require-dev": {
-            "guzzlehttp/guzzle": "^7.5",
+            "guzzlehttp/guzzle": "^7.5"
   },
   "autoload": {
     "files": [
