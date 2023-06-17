@@ -16,7 +16,9 @@
       "role": "Developer"
     }
   ],
+  "minimum-stability": "dev",
   "require": {
+    "php": ">=7.1.0",
     "illuminate/view": "^8.0",
     "vlucas/phpdotenv": "^5.0",
     "symfony/console": "^6.3",
@@ -28,6 +30,9 @@
     "doctrine/dbal": "^3.6",
     "symfony/dotenv": "^6.3"
   },
+  "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
   "autoload": {
     "files": [
       "src/illustrate/framework/Helpers/config.php"
