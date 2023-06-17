@@ -37,5 +37,7 @@
     "files": [
       "src/illustrate/framework/Helpers/config.php"
     ]
-  }
+  },
+    "prefer-stable": true
+
 }
