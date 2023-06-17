@@ -5,6 +5,8 @@
   "homepage": "https://reactoor.ir",
   "license": "MIT",
   "version": "1.0",
+  "type": "library",
+  "minimum-stability": "dev"
   "support": {
     "issues": "https://github.com/reactoor/framework/issues",
     "source": "https://github.com/reactoor/framework"
@@ -88,12 +90,6 @@
     "symfony/mailgun-mailer": "Required to enable support for the Mailgun mail transport (^6.2).",
     "symfony/postmark-mailer": "Required to enable support for the Postmark mail transport (^6.2).",
     "symfony/psr-http-message-bridge": "Required to use PSR-7 bridging features (^2.0)."
-  },
-  "config": {
-    "sort-packages": true,
-    "allow-plugins": {
-      "composer/package-versions-deprecated": true
-    }
   },
   "prefer-stable": true
 }
